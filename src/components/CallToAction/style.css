@@ -1,0 +1,48 @@
+.overlay{
+    background-color: #495E57;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+    gap: 140px;
+    /* margin-inline: 20px; */
+    /* background-color: #495E57; */
+    position: relative;
+}
+.content{
+    /* border: 1px solid black; */
+    width: 22%;
+    padding-top: 1.5rem;
+    color: #fff;
+}
+.content h1{
+    color: #F4CE14;
+}
+.content h2{
+    margin-bottom: 0.5rem;
+}
+.content p{
+    margin-bottom: .5rem;
+}
+.content button{
+    margin-bottom: 1rem;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #F4CE14;
+}
+.image{
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+.image img{
+    object-fit: cover;
+    width: 14rem;
+    height: 15rem;
+    border-radius: 20px;
+    position: absolute;
+    right: 15%;
+}

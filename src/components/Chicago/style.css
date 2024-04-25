@@ -1,0 +1,37 @@
+.location-background{
+    background-color: #495E57;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding-block: 3rem;
+}
+.location-left{
+    width: 22%;
+    padding-top: 1.5rem;
+    color: #fff;
+}
+.location-left h1{
+    color: #F4CE14;
+}
+.location-left h2{
+    margin-bottom: 0.5rem;
+}
+.location-left p{
+    margin-bottom: 0.5rem;
+}
+.location-right img{
+    width: 14rem;
+    height: 15rem;
+    object-fit: cover;
+}
+.location-right img:first-child{
+    position: relative;
+    z-index: 10;
+}
+.location-right img:last-child {
+    margin-bottom: 3rem;
+    margin-left: -4rem;
+    transform: rotate(10deg);
+  }

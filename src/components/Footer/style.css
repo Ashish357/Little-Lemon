@@ -1,0 +1,35 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-top: 3rem;
+}
+.footer-left img{
+    width: 20rem;
+    height: 18rem;
+}
+.footer-right{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-right .footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.footer-right a{
+    font-weight: 300;
+}
+ a:hover{
+    text-decoration: underline #F4CE14 2px;
+}
+.footer-bottom{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
