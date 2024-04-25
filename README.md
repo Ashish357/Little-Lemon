@@ -9,5 +9,5 @@ Currently, two official plugins are available:
 
 1. Changed div element with react fragment
 2. Added meta tags - description, og-title,og-description,og-image
-3. Created Components Nav,CallToAction,HomePage,Specials,CustomersSay,Chicago,BookingPage
-4. Added rotes to HomePage and Booking Page
+3. Created Components Nav,CallToAction,HomePage,Specials,CustomersSay,Chicago,BookingPage,Footer
+5. Added routes to HomePage and Booking Page
